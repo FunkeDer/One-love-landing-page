@@ -17,13 +17,16 @@
     display: flex;
     flex-direction: column
 }
-
+.head__text_w1366{
+    max-width: 1366px;
+}
 .head_text{
+    max-width: 1194px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
-    margin: 0 auto;
+    margin-left: 86px;
 }
 
 .head__text__1{
@@ -31,14 +34,12 @@
     font-size:  45pt;
     margin-right: auto;
     color: black;
-    margin-left: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
 }
 
 .head__text__2{
     font-family: 'Gilroy-bold', sans-serif;
     font-size:  45pt;
     color: #92191C;
-    margin-left: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
 }
 
 .small_paragraph{
@@ -160,16 +161,15 @@
         margin: 10px 5px 0px 5px;
         font-size: 18.5px;
     }
-    .head__text{
+    .head_text{
         height: auto;
+        margin: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320))) !important;
     }
     .head__text__1{
         font-size: 40pt;
-        margin: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
     }
     .head__text__2{
         font-size: 40pt;
-        margin-left: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
     }
     .img__owner{
         width: calc(250px + (468 - 250) * ((100vw - 320px) / (1366 - 320)))!important;
@@ -225,11 +225,9 @@
 @media(max-width: 425px){
     .head__text__1{
         font-size: 27pt;
-        padding-left: 10%;
     }
     .head__text__2{
         font-size: 25pt;
-        padding-left: 10%;
     }
     .img__owner{
         width: calc( 100% - 1rem)!important;

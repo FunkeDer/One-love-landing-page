@@ -7,12 +7,12 @@ const About = () => {
   return (
   <div className="about-container">
    <div className='page-about'>
-      
+        <div className="head__text_w1366">
         <div className="head_text">
           <h1 className="head__text__1">КАВА ДОДОМУ, В ОФІС  ЧИ В КАВ'ЯРНЮ?</h1>
           <h1 className="head__text__2">ЗАПРОСТО!</h1>
         </div>
-        
+        </div>
         <div className="about_block">
           <div className="small__about__block">
           <img src={Owner} alt="owner" className='img__owner' />
