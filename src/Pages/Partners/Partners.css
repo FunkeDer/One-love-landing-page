@@ -1,0 +1,222 @@
+.partners_page{
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.small_partners_page{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.partners_header_text{
+    font-family: 'Gilroy-bold', sans-serif;
+    padding-top: 54.35px;
+    color: #92191C;
+    font-size: 32pt;
+    padding-left: 188px;
+    height: auto;
+
+}
+
+.head_paragraph{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    padding-left: 188px;
+    color: #92191C;
+}
+
+
+.partners__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.partners_logo_1{
+    display: flex;
+    align-items: center;
+    padding-top: 63px;
+    padding-left: 182px;
+}
+
+.partners_logo_2{
+    display: flex;
+    align-items: center;
+    padding-top: 62.8px;
+    padding-bottom: 37.7px;
+
+    padding-left: 151.8px;
+}
+
+.img_partners_1{
+    height: 62.35px;
+}
+
+.img_partners_2{
+    height: 77.04px;
+    padding-left: 173.5px;
+}
+
+.img_partners_3{
+    height: 52.88px;
+    padding-left: 132.8px;
+}
+
+.img_partners_4{
+    height: 222.76px;
+}
+
+.img_partners_5{
+    height: 267.17px;
+    padding-left: 88.1px;
+}
+
+.img_partners_6{
+    height: 54px;
+    padding-left: 77.7px;
+}
+
+@media(max-width: 1336px){
+    .partners__logo{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        max-width: 1366px;
+    }
+    .partners_logo_1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .partners_logo_2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .partners_header_text{
+        font-family: 'Gilroy-bold', sans-serif;
+        padding: 0;
+        text-align: center;
+        color: #92191C;
+        font-size: 27pt;
+    }
+    .head_paragraph{
+        font-family: 'Gilroy-regular', sans-serif;
+        font-size: 20px;
+        padding: 0;
+        text-align: center;
+        color: #92191C;
+    }
+    .img_partners_1{
+        height: 62.35px;
+        margin: 25px 20px ;
+    }
+    
+    .img_partners_2{
+        height: 77.04px;
+        padding-left: 0;  
+        margin: 25px 20px;
+    }
+    
+    .img_partners_3{
+
+        height: 52.88px;
+        padding-left: 0;    
+        margin: 25px 20px;
+    }
+    
+    .img_partners_4{
+        height: 222.76px;
+        width: auto;
+        margin: 25px 20px;
+    }
+    
+    .img_partners_5{
+
+        height: 267.17px;
+        padding-left: 0;    
+        margin: 25px 20px;
+    }
+    
+    .img_partners_6{
+        height: 54px;
+        padding-left: 0;
+        margin: 25px 20px;
+
+    }
+}
+
+@media(max-width: 415px){
+    .partners__logo{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .partners_logo_1{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .partners_logo_2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+    .img_partners_1{
+        height: auto;
+        width: 206.7px;
+        margin: 25px 20px ;
+    }
+    
+    .img_partners_2{
+        width: 224px;
+        height: auto;
+        padding-left: 0;  
+        margin: 25px 20px;
+    }
+    
+    .img_partners_3{
+        width: 224px;
+        height: auto;
+        padding-left: 0;    
+        margin: 25px 20px;
+    }
+    
+    .img_partners_4{
+        width: 267.02px;
+        height: auto;
+        margin: 0px 20px;
+    }
+    
+    .img_partners_5{
+        width: 334.35px;
+        height: auto;
+        padding-left: 0;    
+        margin: 0px 20px;
+    }
+    
+    .img_partners_6{
+        width: 224px;
+        height: auto;
+        padding-left: 0;
+        margin: 25px 20px;
+
+    }
+}

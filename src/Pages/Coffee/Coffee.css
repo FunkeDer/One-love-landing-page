@@ -1,0 +1,306 @@
+.coffee_page_1{
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+}
+
+.coffee__text{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 809px;
+    padding-left: 188px;
+}
+
+.coffee__topic{
+    font-family: 'Gilroy-bold', sans-serif;
+    padding-top: 95.65px;
+    color: #92191C;
+    font-size: 32pt;
+}
+
+.coffee_paragraph{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: #92191C;
+}
+
+.coffee_info{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 809px;
+    padding: 0px 188px 98.65px 188px;
+    height: auto;
+}
+
+.coffee__stats{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: #92191C;
+    padding-top: 45px;
+    padding-right: 152px;
+    font-size: 32pt;
+}
+.coffee__stats_1{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: #92191C;
+    padding-top: 45px;
+    font-size: 32pt;
+}
+.paragraph__coffee_stats{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: #92191C;
+}
+
+.coffee_page_2{
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #92191C;
+}
+
+.coffee__text_2{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 809px;
+    padding-left: 188px;
+}
+
+.coffee__topic_2{
+    font-family: 'Gilroy-bold', sans-serif;
+    padding-top: 95.65px;
+    color: white;
+    font-size: 32pt;
+}
+
+.coffee_paragraph_2{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.coffee_info_2{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 809px;
+    padding: 0px 188px 98.65px 188px;
+    height: auto;
+}
+
+
+.coffee__stats_222{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: white;
+    padding-top: 45px;
+    text-align: center;
+    padding-right: 152px;
+    font-size: 32pt;
+}
+.coffee__stats_2{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: white;
+    padding-top: 45px;
+    padding-right: 152px;
+    font-size: 32pt;
+}
+.coffee__stats_22{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: white;
+    width: 110%;
+    padding-top: 45px;
+    padding-right: 152px;
+    font-size: 32pt; 
+}
+.paragraph__coffee_stats_2{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.coffee_page_3{
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FAFAFA;
+}
+
+.coffee__text_3{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 809px;
+    padding-left: 188px;
+}
+
+.coffee__topic_3{
+    font-family: 'Gilroy-bold', sans-serif;
+    padding-top: 95.65px;
+    color: black;
+    font-size: 32pt;
+}
+
+.coffee_paragraph_3{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.coffee_info_3{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 809px;
+    padding: 0px 188px 98.65px 188px;
+    height: auto;
+}
+
+.coffee__stats_3{
+    font-family: 'Gilroy-bold', sans-serif;
+    color: black;
+    padding-top: 45px;
+    padding-right: 152px;
+    font-size: 32pt;
+}
+
+.paragraph__coffee_stats_3{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+@media (max-width: 1101px){
+    .coffee__text{
+        display: flex;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;justify-content: center;
+        flex-wrap: wrap;
+    }
+    .coffee_paragraph{
+        font-family: 'Gilroy-regular', sans-serif;
+        font-size: 18.5px;
+        color: #92191C;
+        margin:  calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+
+    }
+    .coffee_info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 98.7px;
+        margin: 0 auto;
+    }
+    .coffee__stats{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 27pt;
+    }
+
+    .small__coffee_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 40px;
+    }
+    .paragraph__coffee_stats{
+        text-align: center;
+    }
+
+
+
+    .coffee__text_2{
+        display: flex;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;justify-content: center;
+        flex-wrap: wrap;
+    }
+    .coffee_paragraph_2{
+        font-family: 'Gilroy-regular', sans-serif;
+        font-size: 18.5px;
+        color: white;
+        margin:  calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+    }
+    .coffee_info_2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 98.7px;
+        margin: 0 auto;
+    }
+    .coffee__stats_2{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 27pt;
+    }
+
+    .small__coffee_info_2{
+        margin-left: 43px;
+        margin-right: 43px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .paragraph__coffee_stats_2{
+        text-align: center;
+        font-size: 18.5px;
+    }
+
+
+
+    .coffee__text_3{
+        display: flex;
+        padding: 0;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;justify-content: center;
+        flex-wrap: wrap;
+    }
+    .coffee_paragraph_3{
+        font-family: 'Gilroy-regular', sans-serif;
+        font-size: 18.5px;
+        color: black;
+        margin:  calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+
+    }
+    .coffee_info_3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        padding-bottom: 98.7px;
+        margin: 0 auto;
+    }
+    .coffee__stats_3{
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 27pt;
+    }
+
+    .small__coffee_info_3{
+        margin: 0px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .paragraph__coffee_stats_3{
+        text-align: center;
+    }
+}

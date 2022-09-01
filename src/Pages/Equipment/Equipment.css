@@ -1,0 +1,138 @@
+
+.equipment_block{
+    max-width: 1366px;
+    background-color: #92191C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;    
+}
+
+
+.small__equipment__block{
+    max-width: 1194px;
+    margin: 70px 86px;  
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small__text__equipment{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: auto;
+    padding-right: 126px;
+    margin-left: 68px;
+}
+
+.loring_s35{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-size:  35pt;
+    color: #92191C;
+}
+
+.loring__info{
+    font-family: 'Gilroy-bold', sans-serif;
+    font-size:  35pt;
+    color: black;
+}
+
+.img__loring{
+    height: 576px;
+    padding-left: 102px;
+}
+@media (max-width:1228px){
+    .img__loring{
+        height: 500px;
+        padding-left: 102px;
+    }
+}
+@media (max-width:1156px) {
+    .equipment_block{
+        height: auto;
+        max-width: 960px;
+        background-color: #92191C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small__equipment__block{
+        height: auto;
+        width: 1194px;
+        margin: calc(13px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .small__text__equipment{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .img__loring{
+        padding: 0;
+        max-width: 200px;
+        height: auto;
+    }
+    .loring_s35{
+        font-size: 27pt;
+    }
+    .loring__info{
+        font-size: 27pt;
+    }
+}
+
+@media(max-width:390px){
+
+    .equipment_block{
+        height: auto;
+        max-width: 1366px;
+        background-color: #92191C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small__equipment__block{
+        height: auto;
+        max-width: 1194px;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .small__text__equipment{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .img__loring{
+        padding: 0;
+        max-width: 200px;
+        height: auto;
+    }
+    .loring_s35{
+        font-size: 27pt;
+    }
+    .loring__info{
+        font-size: 27pt;
+    }
+}
