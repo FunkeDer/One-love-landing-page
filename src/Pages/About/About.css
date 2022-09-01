@@ -126,7 +126,7 @@
     height: 577px;
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1056px){
     .about_block{
         max-width: 1366px;
         height: auto;
