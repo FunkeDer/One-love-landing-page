@@ -24,7 +24,7 @@ const Coffee = () => {
                 <p className='paragraph__coffee_stats'>знижка</p>
               </div>
               <div className="small__coffee_info">
-                <h1 className="coffee__stats">НА ВИБІР</h1>
+                <h1 className="coffee__stats_1">НА ВИБІР</h1>
                 <p className='paragraph__coffee_stats'>еспресо чи фільтр обсмажка</p>
               </div>
             </div>

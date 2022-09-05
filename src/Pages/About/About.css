@@ -155,7 +155,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin: 36px 3px;
+        margin: 0px 3px 10px 3px;
     }
     .small_paragraph{
         margin: 10px 5px 0px 5px;
@@ -173,7 +173,7 @@
     }
     .img__owner{
         width: calc(250px + (468 - 250) * ((100vw - 320px) / (1366 - 320)))!important;
-        margin: calc(56px + (50 - 20) * ((100vw - 320px) / (1366 - 320)));
+        margin: calc(5px + (56 - 5) * ((100vw - 320px) / (1366 - 320)));
     }
 
     .proposal_block{
