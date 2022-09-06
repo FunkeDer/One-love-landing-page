@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/FunkeDer/One-love-landing-page/static/css/main.31c72574.css",
+    "main.js": "/FunkeDer/One-love-landing-page/static/js/main.3b19d0e6.js",
+    "static/media/Owner.png": "/FunkeDer/One-love-landing-page/static/media/Owner.28eb6e79e4f23dc6d118.png",
+    "static/media/Group_4.png": "/FunkeDer/One-love-landing-page/static/media/Group_4.d79e3ddafa92a43ad303.png",
+    "static/media/Group_5.png": "/FunkeDer/One-love-landing-page/static/media/Group_5.7436bd69719cbadbe1ba.png",
+    "static/media/Mask__Group_2.png": "/FunkeDer/One-love-landing-page/static/media/Mask__Group_2.1114c3a75db89fe11c37.png",
+    "static/media/Group_2.png": "/FunkeDer/One-love-landing-page/static/media/Group_2.4e49830036fc2b473bb6.png",
+    "static/media/Mask__Group_1.png": "/FunkeDer/One-love-landing-page/static/media/Mask__Group_1.bcb0a27522802b19601a.png",
+    "static/media/Group_1.png": "/FunkeDer/One-love-landing-page/static/media/Group_1.9e8f24be681ee6a5e4af.png",
+    "static/media/Group_3.png": "/FunkeDer/One-love-landing-page/static/media/Group_3.37a4c6b7cbb68f5db4ab.png",
+    "index.html": "/FunkeDer/One-love-landing-page/index.html",
+    "main.31c72574.css.map": "/FunkeDer/One-love-landing-page/static/css/main.31c72574.css.map",
+    "main.3b19d0e6.js.map": "/FunkeDer/One-love-landing-page/static/js/main.3b19d0e6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31c72574.css",
+    "static/js/main.3b19d0e6.js"
+  ]
+}
