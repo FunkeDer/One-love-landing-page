@@ -6,6 +6,7 @@ import Coffee from './Pages/Coffee/Coffee';
 import Partners from './Pages/Partners/Partners';
 import Questions from './Pages/Questions/Questions';
 
+
 function App() {
   return (
     <div className='container'>
